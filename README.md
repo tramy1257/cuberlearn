@@ -9,10 +9,10 @@ This website provides CFOP algorithms and some useful tools
 
 ## Functions
 ##### CFOP Algorithms
-![algorithms](resource/img/demoImg/demo1 "CFOP Algorithms")
+![Can't find demo1](resource/img/demoImg/demo1.png "CFOP Algorithms")
 
 ##### Metronome Trainer
-![algorithms](resource/img/demoImg/demo2 "Metronome Trainer")
+![Can't find demo2](resource/img/demoImg/demo2.png "Metronome Trainer")
 
 ##### Rubik's Cube Timer
-![algorithms](resource/img/demoImg/demo3 "Rubik's Cube Timer")
+![Can't find demo3](resource/img/demoImg/demo3.png "Rubik's Cube Timer")
