@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Metronome</title>
+    <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+    <script src="../js/metronome.js"></script>
+  </head>
+  <body>
+
+  <div class="wrapper">
+
+    <div class="NavBar">
+      <ul id="NavUl">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="cfop.html">CFOP Method</a></li>
+        <li><a id="active" href="tools.html">Tools</a></li>
+      </ul>
+    </div>
+
+    <img id=topPic src="../resource/img/mainImg.jpg" alt="Rubik">
+
+
+    <div class="Columns">
+
+      <div class="SideBar">
+        <ul id="mainList">
+          <li><a href="../index.html">Home</a></li>
+
+          <li><a href="cfop.html">CFOP Method</a>
+            <ul>
+              <li><a href="cross.html">Cross</a></li>
+              <li><a href="f2l.html">F2L</a></li>
+              <li><a href="oll.html">OLL</a></li>
+              <li><a href="pll.html">PLL</a></li>
+            </ul>
+          </li>
+
+          <li><a href="tools.html">Tools</a>
+            <ul>
+              <li><a href="aveCalc.php">Average Calculator</a></li>
+              <li><a href="timer.html">Rubik Timer</a></li>
+              <li><a href="metronome.html">Metronome</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="Content">
+        <h1>Metronome Trainer</h1>
+        <p>The metronome training method is a popular way to train your Look Ahead skill to shorten your time to finish F2L.</p>
+        <h3>Instructions:</h3>
+		  <ul>
+       	 <li>Adjust the slider to the desired BPM.</li>
+       	 <li>Hit start or stop to start or stop the Metronome.</li>
+        </ul>
+
+        <div class="metroTool">
+        		<p>Adjust BPM (60 - 180)</p>
+
+        		<audio id="metro60">
+        			<source src="../resource/audio/bpm/60.mp3" type="audio/mp3">
+        		</audio>
+        		<audio id="metro80">
+        			<source src="../resource/audio/bpm/80.mp3" type="audio/mp3">
+        		</audio>
+        		<audio id="metro100">
+        			<source src="../resource/audio/bpm/100.mp3" type="audio/mp3">
+        		</audio>
+        		<audio id="metro120">
+        			<source src="../resource/audio/bpm/120.mp3" type="audio/mp3">
+        		</audio>
+        		<audio id="metro140">
+        			<source src="../resource/audio/bpm/140.mp3" type="audio/mp3">
+        		</audio>
+        		<audio id="metro160">
+        			<source src="../resource/audio/bpm/160.mp3" type="audio/mp3">
+        		</audio>
+        		<audio id="metro180">
+        			<source src="../resource/audio/bpm/180.mp3" type="audio/mp3">
+        		</audio>
+
+        		<input id="bpmRange" type="range" min="60" max="180" step="20">
+        		<br />
+        		<h3 id="showBpm">BPM: 120</h3>
+        		<input class="metroBtn" id="startBtn" type="submit" value="Start">
+        		<input class="metroBtn" id="stopBtn" type="submit" value="Stop">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+</html>
