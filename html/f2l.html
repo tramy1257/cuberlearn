@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CFOP F2L</title>
+    <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+  </head>
+  <body>
+
+  <div class="wrapper">
+
+    <div class="NavBar">
+      <ul id="NavUl">
+        <li><a href="../index.html">Home</a></li>
+        <li><a id="active" href="cfop.html">CFOP Method</a></li>
+        <li><a href="tools.html">Tools</a></li>
+      </ul>
+    </div>
+
+    <img id=topPic src="../resource/img/mainImg.jpg" alt="Rubik">
+
+
+    <div class="Columns">
+
+      <div class="SideBar">
+        <ul id="mainList">
+          <li><a href="../index.html">Home</a></li>
+
+          <li><a href="cfop.html">CFOP Method</a>
+            <ul>
+              <li><a href="cross.html">Cross</a></li>
+              <li><a href="f2l.html">F2L</a></li>
+              <li><a href="oll.html">OLL</a></li>
+              <li><a href="pll.html">PLL</a></li>
+            </ul>
+          </li>
+
+          <li><a href="tools.html">Tools</a>
+            <ul>
+              <li><a href="aveCalc.php">Average Calculator</a></li>
+              <li><a href="timer.html">Rubik Timer</a></li>
+              <li><a href="metronome.html">Metronome</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="Content F2L">
+        <h1>CFOP: The First 2 Layers</h1>
+        <p>The second step that helps us solve the Cube is to finish the bottom 2 layers:</p>
+        <img id="goal" src="../resource/img/f2l/c2f.png" alt="Cross to F2L">
+        <h3>How to Solve the First 2 Layers:</h3>
+        <p>Once we are done with the Cross, all four faces excluding the white and the yellow faces
+        will have an edge connected to the center. Our job now is to find the pairs of edge and corner to
+        connect them together and move them to there correct position.</p>
+        <p>Below is the list of all 41 possible corner-edge positions and how to move them back to finish
+        the first 2 layers.</p>
+        <h3>F2L Algorithms:</h3>
+
+        <table>
+          <tr>
+            <th>Number</th>
+            <th>Image</th>
+            <th>Algorithms</th>
+            <th>Number</th>
+            <th>Image</th>
+            <th>Algorithms</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><img src="../resource/img/f2l/f2l-var1.PNG" alt="#1"></td>
+            <td>U (R U' R')</td>
+            <td>2</td>
+            <td><img src="../resource/img/f2l/f2l-var2.PNG" alt=""></td>
+            <td>y' U' (R' U R)</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><img src="../resource/img/f2l/f2l-var3.PNG" alt=""></td>
+            <td>U' R U R' U2 (R U' R')</td>
+            <td>4</td>
+            <td><img src="../resource/img/f2l/f2l-var4.PNG" alt=""></td>
+            <td>d R' U' R U2' (R' U R)</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><img src="../resource/img/f2l/f2l-var5.PNG" alt=""></td>
+            <td>U' R U2' R' U2 (R U' R')</td>
+            <td>6</td>
+            <td><img src="../resource/img/f2l/f2l-var6.PNG" alt=""></td>
+            <td>d R' U2 R U2' (R' U R)</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><img src="../resource/img/f2l/f2l-var7.PNG" alt=""></td>
+            <td>y' R' U R U' d' (R U R')</td>
+            <td>8</td>
+            <td><img src="../resource/img/f2l/f2l-var8.PNG" alt=""></td>
+            <td>R U' R' U d (R' U' R)</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><img src="../resource/img/f2l/f2l-var9.PNG" alt=""></td>
+            <td>y' (R' U' R)</td>
+            <td>10</td>
+            <td><img src="../resource/img/f2l/f2l-var10.PNG" alt=""></td>
+            <td>(R U R')</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><img src="../resource/img/f2l/f2l-var11.PNG" alt=""></td>
+            <td>d R' U' R U'(R' U' R)</td>
+            <td>12</td>
+            <td><img src="../resource/img/f2l/f2l-var12.PNG" alt=""></td>
+            <td>U' R U R' U (R U R')</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><img src="../resource/img/f2l/f2l-var13.PNG" alt=""></td>
+            <td>U' R U2' R' d (R' U' R)</td>
+            <td>14</td>
+            <td><img src="../resource/img/f2l/f2l-var14.PNG" alt=""></td>
+            <td>R' U2 R2 U R2' U R</td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><img src="../resource/img/f2l/f2l-var15.PNG" alt=""></td>
+            <td>d R' U R U' (R' U' R)</td>
+            <td>16</td>
+            <td><img src="../resource/img/f2l/f2l-var16.PNG" alt=""></td>
+            <td>U' R U' R' U(R U R')</td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td><img src="../resource/img/f2l/f2l-var17.PNG" alt=""></td>
+            <td>R U2' R' U' (R U R')</td>
+            <td>18</td>
+            <td><img src="../resource/img/f2l/f2l-var18.PNG" alt=""></td>
+            <td>y' R' U2 R U (R' U' R)</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td><img src="../resource/img/f2l/f2l-var19.PNG" alt=""></td>
+            <td>U R U2 R' U (R U' R')</td>
+            <td>20</td>
+            <td><img src="F2L/f2l-var20.PNG" alt=""></td>
+            <td>y' U' R' U2 R U' (R' U R)</td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td><img src="../resource/img/f2l/f2l-var21.PNG" alt=""></td>
+            <td>U2 R U R' U (R U' R')</td>
+            <td>22</td>
+            <td><img src="../resource/img/f2l/f2l-var22.PNG" alt=""></td>
+            <td>y' U2 R' U' R U' (R' U R)</td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td><img src="../resource/img/f2l/f2l-var23.PNG" alt=""></td>
+            <td>y' U R' U2 R y R U2 R' U R U' R'</td>
+            <td>24</td>
+            <td><img src="../resource/img/f2l/f2l-var24.PNG" alt=""></td>
+            <td>U' R U2' R' y' R' U2 R U' R' U R</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td><img src="../resource/img/f2l/f2l-var25.PNG" alt=""></td>
+            <td>U R U' R' d' (L' U L)</td>
+            <td>26</td>
+            <td><img src="../resource/img/f2l/f2l-var26.PNG" alt=""></td>
+            <td>y' U' R' U R r' U' R U M'</td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td><img src="../resource/img/f2l/f2l-var27.PNG" alt=""></td>
+            <td>y' R' U' R U (R' U' R)</td>
+            <td>28</td>
+            <td><img src="../resource/img/f2l/f2l-var28.PNG" alt=""></td>
+            <td>R U R' U' (R U R')</td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td><img src="../resource/img/f2l/f2l-var29.PNG" alt=""></td>
+            <td>R U' R' U (R U' R')</td>
+            <td>30</td>
+            <td><img src="../resource/img/f2l/f2l-var30.PNG" alt=""></td>
+            <td>y' R' U R U' (R' U R)</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td><img src="../resource/img/f2l/f2l-var31.PNG" alt=""></td>
+            <td>U' R U' R' U2 (R U' R')</td>
+            <td>32</td>
+            <td><img src="../resource/img/f2l/f2l-var32.PNG" alt=""></td>
+            <td>d R' U R U2 (R' U R)</td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td><img src="../resource/img/f2l/f2l-var33.PNG" alt=""></td>
+            <td>U' R U R' d (R' U' R)</td>
+            <td>34</td>
+            <td><img src="../resource/img/f2l/f2l-var34.PNG" alt=""></td>
+            <td>d R' U' R d' (R U R')</td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td><img src="../resource/img/f2l/f2l-var35.PNG" alt=""></td>
+            <td>R U' R' d (R' U R)</td>
+            <td>36</td>
+            <td><img src="../resource/img/f2l/f2l-var36.PNG" alt=""></td>
+            <td>[R U R' U'][R U R' U'](R U R')</td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td><img src="../resource/img/f2l/f2l-var37.PNG" alt=""></td>
+            <td>R U' R' U' R U R' U2 (R U' R')</td>
+            <td>38</td>
+            <td><img src="../resource/img/f2l/f2l-var38.PNG" alt=""></td>
+            <td>R U R' U2 R U' R' U(R U R')</td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td><img src="../resource/img/f2l/f2l-var39.PNG" alt=""></td>
+            <td>R U' R' d R' U' R U' (R' U' R)</td>
+            <td>40</td>
+            <td><img src="../resource/img/f2l/f2l-var40.PNG" alt=""></td>
+            <td>R U R' U' R U' R' U2 y' (R' U' R)</td>
+          </tr>
+          <tr>
+            <td>41</td>
+            <td><img src="../resource/img/f2l/f2l-var41.PNG" alt=""></td>
+            <td>R U' R' U y' R' U2 R U2' (R' U R)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <h3>Good Luck! When you're done, proceed to <a href="oll.html">OLL</a>!</h3>
+
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CFOP OLL</title>
+    <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+  </head>
+  <body>
+
+  <div class="wrapper">
+
+    <div class="NavBar">
+      <ul id="NavUl">
+        <li><a href="../index.html">Home</a></li>
+        <li><a id="active" href="cfop.html">CFOP Method</a></li>
+        <li><a href="tools.html">Tools</a></li>
+      </ul>
+    </div>
+
+    <img id=topPic src="../resource/img/mainImg.jpg" alt="Rubik">
+
+
+    <div class="Columns">
+
+      <div class="SideBar">
+        <ul id="mainList">
+          <li><a href="../index.html">Home</a></li>
+
+          <li><a href="cfop.html">CFOP Method</a>
+            <ul>
+              <li><a href="cross.html">Cross</a></li>
+              <li><a href="f2l.html">F2L</a></li>
+              <li><a href="oll.html">OLL</a></li>
+              <li><a href="pll.html">PLL</a></li>
+            </ul>
+          </li>
+
+          <li><a href="tools.html">Tools</a>
+            <ul>
+              <li><a href="aveCalc.php">Average Calculator</a></li>
+              <li><a href="timer.html">Rubik Timer</a></li>
+              <li><a href="metronome.html">Metronome</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="Content">
+        <h1>CFOP: Orientation of the Last Layer</h1>
+        <p>The third step to Solve your cube using CFOP method is Orienting the Last Layer:</p>
+        <img id="goal" src="../resource/img/oll/ollGoal.png" alt="OLL">
+        <p>The goal of this step is to orient the corner and the edge with the yellow color
+        so the top is all yellow.</p>
+        <h1>The Algorithm</h1>
+
+
+        <div class="algo">
+        		<img src="../resource/img/oll/1.png" alt="Can't Find Image">
+        		<p>F (R U R' U') F'</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/2.png" alt="Can't Find Image">
+        		<p>F (R U R' U') (R U R' U') F'</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/3.png" alt="Can't Find Image">
+        		<p>F (R U R' U') (R U R' U') (R U R' U') F'
+y (R' U' R) U' (R' U R) U' (R' U2 R) </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/4.png" alt="Can't Find Image">
+        		<p>F (R U R' U') (R U R' U') (R U R' U') F'
+y (R' U' R) U' (R' U R) U' (R' U2 R) </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/5.png" alt="Can't Find Image">
+        		<p>f (R U R' U') (R U R' U') f' </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/6.png" alt="Can't Find Image">
+        		<p>f ' (L' U' L U) f </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/7.png" alt="Can't Find Image">
+        		<p>f ' (L' U' L U) f </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/8.png" alt="Can't Find Image">
+        		<p>[F (R U R' U') F'] U [F (R U R' U') F' ]</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/9.png" alt="Can't Find Image">
+        		<p>[F' (L' U' L U) F] y [F (R U R' U') F'] y (r U R' U)(R' F R F') R U2 r' </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/10.png" alt="Can't Find Image">
+        		<p>[f (R U R' U') f'] U [F (R U R' U') F' ] </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/11.png" alt="Can't Find Image">
+        		<p>[f (R U R' U') f'] U' [F (R U R' U') F' ] </p>
+        </div>
+		  <div class="algo">
+        		<img src="../resource/img/oll/12.png" alt="Can't Find Image">
+        		<p>[F (R U R' U') F' ] [f (R U R' U') f'] </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/13.png" alt="Can't Find Image">
+        		<p>[f (R U R' U') f'] [F (R U R' U') F']
+R U2' R2' U' R2 U' R2' U2 R</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/14.png" alt="Can't Find Image">
+        		<p>(r U r') (R U R' U') (r U' r')</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/15.png" alt="Can't Find Image">
+        		<p>(l' U' l) (L' U' L U) (l' U l) </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/16.png" alt="Can't Find Image">
+        		<p>R' [F (R U R' U') F'] U R  </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/17.png" alt="Can't Find Image">
+        		<p>(R U R' U') M' (U R U' r')</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/18.png" alt="Can't Find Image">
+        		<p>M U (R U R' U') M2 (U R U' r')</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/19.png" alt="Can't Find Image">
+        		<p>F (R U R' U') R F' (r U R' U') r'</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/20.png" alt="Can't Find Image">
+        		<p>(R U R' U') (R' F R F')</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/21.png" alt="Can't Find Image">
+        		<p>(r U R' U') (r' F R F')</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/22.png" alt="Can't Find Image">
+        		<p>F' (r U R' U') (r' F R ) </p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/23.png" alt="Can't Find Image">
+        		<p>R' U' (R' F R F') U R</p>
+        </div>
+        <div class="algo">
+        		<img src="../resource/img/oll/24.png" alt="Can't Find Image">
+        		<p>(R U2 R') (R' F R F') U2 (R' F R F')</p>
+        </div>
+`		  <div class="algo">
+        		<img src="../resource/img/oll/25.png" alt="Can't Find Image">
+        		<p>(R U2 R') (R' F R F') (R U2 R') </p>
+        </div>
+		  <div class="algo">
+        		<img src="../resource/img/oll/26.png" alt="Can't Find Image">
+        		<p>M U (R U R' U') M' (R' F R F')</p>
+        </div>
+		  <div class="algo">
+        		<img src="../resource/img/oll/27.png" alt="Can't Find Image">
+        		<p>(R' F R' F') R2 U2 y (R' F R F')</p>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+</html>
