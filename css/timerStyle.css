@@ -17,11 +17,14 @@ body{
   margin: 0;
   overflow: hidden;
 }
- 
+
 .NavBar{
   padding: 0px;
   background-color: #2d3142;
-} 
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
 .NavBar ul li{
   display: inline;
@@ -69,7 +72,7 @@ body{
 
 #AveDisplay{
 	margin: 40px;
-	
+
 }
 
 fieldset{
@@ -90,4 +93,3 @@ legend{
 #results{
 	list-style-type: none;
 }
-
