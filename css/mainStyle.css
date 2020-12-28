@@ -32,6 +32,7 @@ a{
   background-color: #2d3142;
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 .NavBar ul li{
@@ -53,7 +54,7 @@ a{
 }
 
 .Columns{
-  flex-grow: 1;
+  margin-top: 38px;
   display: flex;
   flex-direction: row;
 }
