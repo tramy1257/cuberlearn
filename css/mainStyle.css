@@ -49,8 +49,36 @@ a{
 }
 
 .NavBar a:hover{
-  background-color: rgb(203,203,205);
+  background-color: rgb(203,203,205,0.9);
   color: #2d3142;
+}
+
+.Dropdown:hover .DropdownBtn {
+  background-color: rgb(203,203,205,0.9);
+  color: #2d3142;
+}
+
+.DropdownContent {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  background-color: rgb(177,177,182);
+}
+
+.DropdownContent a {
+  float: none;
+  display: block;
+  text-align: left;
+  color: #2d3142;
+}
+
+.DropdownContent a:hover {
+  background-color: rgb(45,49,66,0.5);
+  color: rgb(203,203,205);
+}
+
+.Dropdown:hover .DropdownContent {
+  display: block;
 }
 
 .Columns{
@@ -65,14 +93,6 @@ a{
   margin: 10px;
 }
 
-.Content{
-  padding: 10px;
-  width: 80%;
-  background-color: rgb(203,203,205);
-  margin: 10px;
-  margin-left: 0px;
-}
-
 .SideBar ul{
   list-style-type: square;
 }
@@ -80,6 +100,18 @@ a{
 .SideBar a{
   text-decoration: none;
   color: #2d3142;
+}
+
+.SideBar li {
+  font-weight: normal;
+}
+
+.Content{
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(203,203,205);
+  margin: 10px;
+  margin-left: 0px;
 }
 
 #mainList > li{
