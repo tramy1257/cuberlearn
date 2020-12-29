@@ -11,16 +11,16 @@ Rubik's Cube solver.
 The live demo of this project can be found [here](http://ice.truman.edu/~tv1513/cuberlearn/index.html)
 
 ### CFOP Algorithms
-![Algos](./resource/img/demoImg/algos.png =150x)
+<img src='./resource/img/demoImg/algos.png' width='400px'>
 
 ### Average of 5 Calculator
-![Ave5](./resource/img/demoImg/ave-calc.png =150x)
+<img src='./resource/img/demoImg/ave-calc.png' width='300px'>
 
 ### Cube Timer
-![Timer](./resource/img/demoImg/timer.png =150x)
+<img src='./resource/img/demoImg/timer.png' width='400px'>
 
 ### Metronome Trainer
-![Metro](./resource/img/demoImg/metro.png =150x)
+<img src='./resource/img/demoImg/metro.png' width='400px'>
 
 ## Technologies
 
